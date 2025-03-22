@@ -1,0 +1,40 @@
+/* საძიებო ველის კონტეინერი */
+.leaflet-control-geosearch {
+  width: 100%;
+  margin: 0 !important;
+  border: none !important;
+}
+
+/* საძიებო ველი */
+.leaflet-control-geosearch form {
+  background: white;
+  padding: 0;
+}
+
+.leaflet-control-geosearch form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* დამალეთ ზედმეტი ელემენტები */
+.leaflet-control-geosearch form .reset {
+  display: none;
+}
+
+.leaflet-control-geosearch .results {
+  margin-top: 0;
+  border: none;
+}
+
+/* შედეგების სია */
+.leaflet-control-geosearch .results > * {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.leaflet-control-geosearch .results > *:hover {
+  background: #f5f5f5;
+}
